@@ -1,0 +1,183 @@
+cv:
+  name: Muhammad Taha Cheema
+  label: MMath (CS) Student · Systems, Networking & Applied ML
+  email: tahacheema95@gmail.com
+  phone: "+1 (548) 390-4499"
+  location: Waterloo, ON, Canada
+  image: ""
+  summary: >
+    Master of Mathematics (thesis) student in Computer Science at the University of Waterloo,
+    working on terrestrial–non-terrestrial 5G integration and cross-layer optimization.
+    Experienced software engineer and researcher across LLM systems, networking, and
+    production web platforms.
+
+  social_networks:
+    - network: GitHub
+      username: tahachm
+
+  sections:
+    Education:
+      - institution: University of Waterloo
+        location: Waterloo, ON, Canada
+        url: https://uwaterloo.ca/
+        area: Computer Science
+        studyType: Master of Mathematics (Thesis)
+        start_date: 2026-01
+        end_date: present
+        score: "99.5/100"
+        courses: "Large Language Models for SE; SE for Big Data and AI"
+        highlights:
+          - "Supervised by Dr. Raouf Boutaba."
+          - "Recipient of the International Master's Award of Excellence (C$12,500)."
+
+      - institution: Lahore University of Management Sciences (LUMS)
+        location: Lahore, Pakistan
+        url: https://lums.edu.pk/
+        area: Computer Science
+        studyType: BSc
+        start_date: 2021-09
+        end_date: 2025-05
+        score: "GPA 3.97/4.0"
+        highlights:
+          - "Graduated with High Distinction."
+          - "Placed on the Dean's Honor List (2022–2025)."
+
+      - institution: Stanford University (Summer Session)
+        location: Stanford, CA, USA
+        url: https://www.stanford.edu/
+        area: Computer Science
+        studyType: Summer Session
+        start_date: 2023-06
+        end_date: 2023-08
+        score: "GPA 4.0/4.3"
+        courses: "CS 229 – Machine Learning; ENGR 145 – Technology Entrepreneurship"
+        highlights:
+          - "Awarded a 70% tuition waiver."
+
+    Experience:
+      - company: University of Waterloo
+        position: Graduate Research Assistant
+        location: Waterloo, ON, Canada
+        start_date: 2026-01
+        end_date: present
+        summary: Terrestrial–non-terrestrial 5G integration research with a cross-functional CS/ECE team.
+        highlights:
+          - "Abstracted a testbed design for terrestrial–non-terrestrial 5G integration using cross-layer information sharing to drive optimizations across scheduling, beamforming, and transport."
+          - "Led weekly project presentations for the CS team and used the testbed diagram to explain the solution in stakeholder meetings."
+          - "Mapped testbed proposals onto open-source 5G stacks, enabling the ECE team to implement non-terrestrial channel models."
+          - "Tools: 5G Core, O-RAN, Open5GS, srsRAN (OCU/DU), OpenAirInterface, GNU Radio, channel emulation."
+
+      - company: GreatFrontEnd
+        position: Software Engineer
+        location: Singapore (Remote)
+        start_date: 2025-08
+        end_date: 2026-01
+        summary: Full-time engineer working on LLM pipelines and search infrastructure.
+        highlights:
+          - "Led development of a novel layout-generation pipeline using Gemini's multimodal models and OpenCV, drawing on published research in automated layout generation."
+          - "Built and deployed a scalable real-time artifact search engine on Railway using vector and lexical search, scaling to >110k data points with <50ms latency."
+          - "Supervised a SWE intern on technical content writing for front-end engineering audiences."
+          - "Tools: LLM orchestration, semantic search, vector databases, OCR, OpenCV."
+
+      - company: GreatFrontEnd
+        position: Software Engineering Intern
+        location: Singapore (Remote)
+        start_date: 2025-02
+        end_date: 2025-04
+        summary: Part-time intern on the ed-tech platform.
+        highlights:
+          - "Implemented advanced DOM manipulation with event listeners to enable an executable in-browser JS IDE, boosting user interaction on the company's ed-tech website."
+          - "Curated 200+ SWE interview questions in JavaScript and authored technical content driving LinkedIn engagement growth."
+          - "Tools: React, TypeScript, Next.js, tRPC, Prisma, Framer Motion."
+
+      - company: AI Centre for Educational Technologies
+        position: Software Engineering Intern
+        location: Singapore (On-site)
+        start_date: 2024-05
+        end_date: 2024-08
+        summary: Built SoftMark, a digital grading platform deployed at NUS and secondary schools across Singapore.
+        highlights:
+          - "Implemented a trie-based algorithm over open-source OCR to detect question numbering on answer sheets, doubling teacher productivity by filtering unattempted questions."
+          - "Designed a 2D grid allocation component (replacing a linear menu) to enable fair grading-workload distribution among graders."
+          - "Tools: React, TypeScript, Golang, PostgreSQL, Material UI."
+
+    Research:
+      - name: "TweakLLM: A Routing Architecture for Dynamic Tailoring of Cached Responses"
+        summary: "Undergraduate Senior Year Project (Sep 2024 – Apr 2025). Advised by Dr. Zafar Ayyub Qazi and Dr. Ihsan Ayyub Qazi."
+        url: https://arxiv.org/abs/2507.23674
+        start_date: 2024-09
+        end_date: 2025-04
+        highlights:
+          - "Designed and benchmarked an adaptive caching architecture for LLM systems that uses a lightweight model to dynamically adapt cached responses to similar queries."
+          - "Cut compute costs by up to 68% on real-world user–LLM interaction datasets while reducing response latency."
+          - "Implemented semantic caching using Milvus as a vector database. Paper: arXiv:2507.23674."
+
+      - name: "Optimizing Vector Databases for Audio-Based RAG LLMs"
+        summary: "Course Research Project, CS678 – Topics in Internet Research, LUMS (Feb 2024 – May 2024)."
+        start_date: 2024-02
+        end_date: 2024-05
+        highlights:
+          - "Benchmarked Milvus, Weaviate, and Qdrant on audio data across embedding schemes, similarity metrics, and indexing methods to find the optimal configuration for real-time audio-based LLM interaction."
+
+      - name: "Improving Federated Learning for Causal Graph Discovery"
+        summary: "Directed Research, mentored by Dr. Ihsan Ayyub Qazi at LUMS (Sep 2023 – May 2024)."
+        start_date: 2023-09
+        end_date: 2024-05
+        highlights:
+          - "Analyzed the accuracy–privacy trade-off in state-of-the-art federated causal graph discovery algorithms (FedPC, FedFC, and others)."
+
+      - name: "Tuneable Consistency Edge Datastore for Stateful Mobile Applications over 5G"
+        summary: "Directed Research, mentored by Dr. Zafar Ayyub Qazi at LUMS (Jan 2024 – Mar 2024)."
+        start_date: 2024-01
+        end_date: 2024-03
+        highlights:
+          - "Studied a state-migration algorithm to minimize application downtime during base-station handovers for mobile edge applications."
+          - "Synthesized the literature and designed how to integrate a fault-tolerant edge datastore with tunable consistency for state migration."
+
+    Awards:
+      - title: Third Place — Future Cities Innovation Challenge
+        date: 2026-06
+        awarder: University of Waterloo
+
+      - title: International Master's Award of Excellence (C$12,500)
+        date: 2025
+        awarder: University of Waterloo
+
+      - title: Dean's Honor List
+        date: 2022
+        awarder: Lahore University of Management Sciences
+        summary: "Awarded across 2022–2025."
+
+      - title: 50% Tuition Merit Scholarship
+        date: 2022
+        awarder: Lahore University of Management Sciences
+        summary: "Awarded across 2022–2025."
+
+      - title: 70% Tuition Waiver Award
+        date: 2023
+        awarder: Stanford Summer Session
+
+      - title: Champions — Lahore Regional, National Science Bowl Pakistan
+        date: 2020
+        awarder: National Science Bowl Pakistan
+
+    Skills:
+      - name: Web Development
+        icon: fa-solid fa-code
+        keywords: "React, Next.js, Redux, Recoil, Material UI, tRPC, Prisma ORM, TypeScript"
+
+      - name: Systems & Networking
+        icon: fa-solid fa-network-wired
+        keywords: "Open5GS, srsRAN, OpenAirInterface, GNU Radio, ns-3, O-RAN, 5G Core"
+
+      - name: ML & Data
+        icon: fa-solid fa-brain
+        keywords: "LLM pipelines & orchestration, semantic search, OCR, OpenCV, Milvus, Meilisearch"
+
+      - name: Tools & Infrastructure
+        icon: fa-solid fa-screwdriver-wrench
+        keywords: "Git, Docker, AWS, Railway, Supabase, PostgreSQL, Golang"
+
+    Languages:
+      - name: English
+        summary: "Fluent"
