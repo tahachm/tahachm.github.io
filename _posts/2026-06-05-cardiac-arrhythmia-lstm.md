@@ -1,15 +1,15 @@
 ---
 layout: post
-title: "When 16 classes quietly becomes 6: a review of an arrhythmia classifier"
+title: "When 16 classes quietly become 6: a review of an arrhythmia classifier"
 date: 2026-06-05 12:00:00-0400
-description: "A deep learning ECG classifier with a headline accuracy that hides a methodological catch — and what it says about AI in medicine."
-tags: ai machine-learning healthcare deep-learning opinion paper-review
+description: "A deep learning ECG classifier with a headline accuracy that hides a methodological catch, and what it says about AI in medicine."
+tags: ai machine-learning healthcare deep-learning opinion
 categories: paper-reviews
-giscus_comments: true
+giscus_comments: false
 related_posts: true
 ---
 
-*A review of "Cardiac Arrhythmia Disease Classification Using LSTM Deep Learning Approach" by Muhammad Ashfaq Khan and Yangwoo Kim (Computers, Materials & Continua, 2021). [Download my full review (PDF)]({{ '/assets/pdf/reviews/cardiac-arrhythmia-lstm.pdf' | relative_url }}).*
+*A review of "Cardiac Arrhythmia Disease Classification Using LSTM Deep Learning Approach" by Muhammad Ashfaq Khan and Yangwoo Kim (Computers, Materials & Continua, 2021).*
 
 This paper proposes a deep learning pipeline for classifying cardiac arrhythmias from electrocardiogram (ECG) records into one of 16 disease categories. To build their classifier, the authors adopt a three-stage pipeline on a publicly available arrhythmia dataset (from the UCI Machine Learning Repository, a widely used hosting site for benchmark datasets), which contains 452 patients each described by 279 medical features. First, they preprocess the data by normalizing feature values and dropping rows and columns with missing or zero entries. Second, they apply principal component analysis (PCA) to reduce the number of features, cutting noise and shrinking the input space. Third, they feed the reduced features into a Long Short-Term Memory (LSTM) network followed by a few dense layers and a softmax output. To handle the heavy class imbalance in the dataset—where most records are normal ECGs—they randomly duplicate minority-class examples before training. The authors' concluding remarks are that the PCA + LSTM hybrid achieves higher classification accuracy than prior machine learning approaches on the same dataset and is well-suited to high-dimensional medical data.
 

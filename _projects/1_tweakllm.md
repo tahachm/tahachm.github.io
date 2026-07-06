@@ -2,7 +2,7 @@
 layout: page
 title: TweakLLM
 description: A routing architecture for dynamic tailoring of cached LLM responses
-img: assets/img/3.jpg
+img: assets/img/tweak-llm.png
 importance: 1
 category: research
 related_publications: true

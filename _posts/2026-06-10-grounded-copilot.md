@@ -1,15 +1,15 @@
 ---
 layout: post
-title: "Acceleration, exploration, and the ghost of System 1/2: a review of Grounded Copilot"
+title: "The two modes of using Copilot: acceleration and exploration"
 date: 2026-06-10 12:00:00-0400
-description: "A grounded-theory study of how programmers use Copilot — and whether its two modes were truly discovered or quietly assumed."
-tags: ai programming copilot hci software-engineering opinion paper-review
+description: "My review of grounded-theory study of how programmers use Copilot (and why I think it doesn't capture the full picture)."
+tags: ai programming copilot hci software-engineering opinion
 categories: paper-reviews
-giscus_comments: true
+giscus_comments: false
 related_posts: true
 ---
 
-*A review of "Grounded Copilot: How Programmers Interact with Code-Generating Models" by Shraddha Barke, Michael B. James, and Nadia Polikarpova (Proc. ACM Program. Lang., OOPSLA1, 2023). [Download my full review (PDF)]({{ '/assets/pdf/reviews/grounded-copilot.pdf' | relative_url }}).*
+*A review of "Grounded Copilot: How Programmers Interact with Code-Generating Models" by Shraddha Barke, Michael B. James, and Nadia Polikarpova (Proc. ACM Program. Lang., OOPSLA1, 2023).*
 
 The authors present a qualitative study of how programmers interact with GitHub Copilot. To this end, they apply grounded theory, a qualitative research method in which the researchers begin with raw observations and iteratively tag them with categories that emerge from the data itself, rather than starting from a predefined hypothesis. They observed 20 participants (15 from academia, 5 from industry) with a mix of prior Copilot experience as they solved programming tasks across four languages (Python, Rust, Haskell, and Java). They iterated this until a coherent theory was obtained. They then cross-checked the theory with a quantitative analysis of the in-study data and with five livestream videos of programmers using Copilot on YouTube and Twitch. The authors' concluding remarks are that programmer interactions with Copilot fall into two distinct modes. The first is acceleration: the programmer knows what to do and uses Copilot to get there faster using auto-complete. The second is exploration: the programmer is unsure and uses Copilot to scope out their options by circling between different long form code completions (a user can view up to 10 suggestions for the code block). The paper concludes that future programming assistants should be designed with this bimodality in mind.
 

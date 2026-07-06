@@ -4,6 +4,6 @@
 cv_pdf: /assets/pdf/cv.pdf # path to your CV PDF file
 email: tahacheema95@gmail.com # your email address
 github_username: tahachm # your GitHub username
-# linkedin_username: # add your LinkedIn handle here to show the icon
-# scholar_userid: # add your Google Scholar ID here to show the icon
-rss_icon: true # comment this line to hide the RSS icon
+linkedin_username: tahacheema
+scholar_userid: uw_79CgAAAAJ
+# rss_icon: true # comment this line to hide the RSS icon

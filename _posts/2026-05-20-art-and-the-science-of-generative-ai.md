@@ -2,14 +2,14 @@
 layout: post
 title: "Does generative AI cheapen art? A review of Epstein & Hertzmann"
 date: 2026-05-20 12:00:00-0400
-description: "On the opportunities and risks of generative AI in art — and why I'm skeptical of the 'lower barrier to entry' optimism."
-tags: ai art generative-ai opinion paper-review
+description: "On the opportunities and risks of generative AI in art, and why I'm skeptical of the 'lower barrier to entry' optimism."
+tags: ai art generative-ai opinion
 categories: paper-reviews
-giscus_comments: true
+giscus_comments: false
 related_posts: true
 ---
 
-*A review of "Art and the science of generative AI" by Ziv Epstein, Aaron Hertzmann, and the Investigators of Human Creativity (Science, 2023). [Download my full review (PDF)]({{ '/assets/pdf/reviews/art-and-science-of-generative-ai.pdf' | relative_url }}).*
+*A review of "Art and the science of generative AI" by Ziv Epstein, Aaron Hertzmann, and the Investigators of Human Creativity (Science, 2023).*
 
 This paper discusses the opportunities and risks created by AI in the realm of art, including visual, auditory, and text forms. AI is an incoming disruption to art. Past disruptions include the advent of photography and digital music generation. But what is unique about AI is that it is trained on existing work and therefore, in a way, regurgitates original content.
 

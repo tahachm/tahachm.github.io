@@ -3,13 +3,13 @@ layout: post
 title: "Why I don't buy 'The End of Programming'"
 date: 2026-05-24 12:00:00-0400
 description: "Matt Welsh argues programming will be abstracted away like CPU cycles. I think the analogy breaks on determinism and regulation."
-tags: ai programming llms software-engineering opinion paper-review
+tags: ai programming llms software-engineering opinion
 categories: paper-reviews
-giscus_comments: true
+giscus_comments: false
 related_posts: true
 ---
 
-*A review of "The End of Programming" by Matt Welsh (Communications of the ACM, January 2023). [Download my full review (PDF)]({{ '/assets/pdf/reviews/the-end-of-programming.pdf' | relative_url }}).*
+*A review of "The End of Programming" by Matt Welsh (Communications of the ACM, January 2023).*
 
 Welsh's argument is primarily an argument of analogy. He gives the example of early computer scientists who worked closely with hardware and thought that a knowledge of semiconductors and logic gates would remain important for a computer scientist into the future. However, nowadays, CPU logic is all abstracted away from the programmer who never needs to operate with hardware. Similarly, Welsh claims that the next abstraction step will be one from programming to commanding AI agents. Programming will be akin to knowing how semiconductors and CPU cycles work, while manipulating AI agents will be the new abstraction computer scientists (if they can even be called that) will operate on. Welsh refers to this as humans' relegation to a mere supervisory role.
 
