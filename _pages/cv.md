@@ -4,7 +4,7 @@ permalink: /cv/
 title: CV
 nav: true
 nav_order: 4
-description: Curriculum vitae of Muhammad Taha Cheema. Last updated July 6, 2026.
+description: Curriculum vitae of Muhammad Taha Cheema. Last updated Sep 7, 2026.
 ---
 
 <p>
